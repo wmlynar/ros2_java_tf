@@ -128,4 +128,11 @@ public class Transform {
 		return stamp;
 	}
 
+	public tf2_msgs.msg.TFMessage toTfMessage() {
+		tf2_msgs.msg.TFMessage tfMessage = new tf2_msgs.msg.TFMessage();
+		geometry_msgs.msg.TransformStamped transform = new geometry_msgs.msg.TransformStamped();
+		get(transform);
+		tfMessage.getTransforms().add(transform);
+		return tfMessage;
+	}
 }
