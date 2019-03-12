@@ -25,27 +25,27 @@
 		<dependency>
 			<groupId>org.ros2.java</groupId>
 			<artifactId>builtin_interfaces_messages</artifactId>
-			<version>0.0.20190222-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.ros2.java</groupId>
 			<artifactId>rcljava_common</artifactId>
-			<version>0.0.20190222-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.ros2.java</groupId>
 			<artifactId>std_msgs_messages</artifactId>
-			<version>0.0.20190222-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.ros2.java</groupId>
 			<artifactId>geometry_msgs_messages</artifactId>
-			<version>0.0.20190222-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.ros2.java</groupId>
 			<artifactId>tf2_msgs_messages</artifactId>
-			<version>0.0.20190222-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
                 <!-- testing -->
                 <dependency>
