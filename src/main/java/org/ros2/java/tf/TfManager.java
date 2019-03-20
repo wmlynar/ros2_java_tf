@@ -254,7 +254,9 @@ public class TfManager {
 		if (tb == null) {
 			tb = createTransformBuffer(transform.parentFrameId, transform.childFrameId, isStaticTransform);
 		} else if (tb.isStaticTransform != isStaticTransform) {
-			throw new IllegalArgumentException("Transform cannot change status of isStaticTransform");
+			//throw new IllegalArgumentException("Transform cannot change status of isStaticTransform");
+			// static transform keyword changed - clear transform buffer
+			tb = createTransformBuffer(transform.parentFrameId, transform.childFrameId, isStaticTransform);
 		}
 		return tb;
 	}
