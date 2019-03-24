@@ -29,4 +29,10 @@ public class TransformList {
 			tfMessage.getTransforms().add(transform);
 		}
 	}
+	
+	public tf2_msgs.msg.TFMessage toTfMessage() {
+		tf2_msgs.msg.TFMessage tfMessage = new tf2_msgs.msg.TFMessage();
+		get(tfMessage);
+		return tfMessage;
+	}
 }
