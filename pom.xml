@@ -17,7 +17,7 @@
 			<artifactId>vecmath</artifactId>
 			<version>1.5.2</version>
 		</dependency>
- 		<dependency>
+		<dependency>
 			<groupId>org.jgrapht</groupId>
 			<artifactId>jgrapht-core</artifactId>
 			<version>1.1.0</version>
@@ -47,12 +47,18 @@
 			<artifactId>tf2_msgs_messages</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-                <!-- testing -->
-                <dependency>
-                        <groupId>junit</groupId>
-                        <artifactId>junit</artifactId>
-                        <version>4.11</version>
-                        <!-- <scope>test</scope> -->
-                </dependency>
+		<!-- testing -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>ros2_java_maven_repo</id>
+			<url>https://raw.github.com/wmlynar/ros2_java_maven_repo/master/</url>
+		</repository>
+	</repositories>
 </project>
