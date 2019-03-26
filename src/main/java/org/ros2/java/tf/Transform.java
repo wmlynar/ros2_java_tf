@@ -116,7 +116,7 @@ public class Transform {
 	}
 	
 	private double toSeconds(builtin_interfaces.msg.Time stamp) {
-		return 1.0 * stamp.getSec() + 1e-6 * stamp.getNanosec();
+		return 1.0 * stamp.getSec() + 1e-9 * stamp.getNanosec();
 	}
 
 	private builtin_interfaces.msg.Time toStamp(double time) {
